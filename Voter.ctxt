@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getPostcode()
+comment1.params=postcode
+comment1.target=void\ setPostcode(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=name\ postcode
+comment4.target=Voter(java.lang.String,\ java.lang.String)
+comment5.params=candidate
+comment5.target=void\ castVote(CandidateInterface)
+comment6.params=
+comment6.target=VoteInterface\ getVote()
+numComments=7

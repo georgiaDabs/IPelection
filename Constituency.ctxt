@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.Set\ getCandidates()
+comment1.params=candidate
+comment1.target=void\ addCandidate(CandidateInterface)
+comment2.params=
+comment2.target=java.util.Set\ getPollingStations()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=name
+comment4.target=void\ setName(java.lang.String)
+comment5.params=candidate
+comment5.target=int\ voteCount(CandidateInterface)
+comment6.params=
+comment6.target=CandidateInterface\ winner()
+comment7.params=pollingStation
+comment7.target=void\ addPollingStation(PollingStationInterface)
+numComments=8

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getAddress()
+comment1.params=address
+comment1.target=void\ setAddress(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=candidate
+comment4.target=int\ voteCount(CandidateInterface)
+comment4.text=\r\n\ @return\ the\ number\ of\ votes\ that\ have\ been\ cast\ for\ the\ given\ candidate\r\n
+numComments=5

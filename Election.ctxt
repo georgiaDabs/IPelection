@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.Set\ getConstituencies()
+comment1.params=constituency
+comment1.target=void\ addConstituency(ConstituencyInterface)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.util.Set\ getParties()
+comment4.params=party
+comment4.target=int\ seatCount(PartyInterface)
+comment5.params=
+comment5.target=PartyInterface\ winner()
+comment6.params=
+comment6.target=CandidateInterface\ leader()
+numComments=7

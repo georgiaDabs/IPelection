@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.Set\ getConstituencies()
+comment1.params=constituency
+comment1.target=void\ addConstituency(ConstituencyInterface)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=CandidateInterface\ leader()
+comment3.text=\r\n\ @return\ If\ the\ winning\ party\ has\ more\ than\ 50%\ of\ the\ seats\ then\ return\ that\ party's\ leader,\ otherwise\ return\ null\r\n
+numComments=4

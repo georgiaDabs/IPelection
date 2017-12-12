@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.Set\ getCandidates()
+comment1.params=candidate
+comment1.target=void\ addCandidate(CandidateInterface)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=candidate
+comment4.target=int\ voteCount(CandidateInterface)
+comment4.text=\ \r\n\ @return\ the\ total\ number\ of\ votes\ cast\ for\ the\ given\ candidate\ in\ this\ constituency\ at\ any\ polling\ station\r\n
+comment5.params=
+comment5.target=CandidateInterface\ winner()
+comment5.text=\r\n\ @return\ the\ candidate\ with\ the\ most\ votes\ in\ this\ constituency\r\n
+numComments=6
