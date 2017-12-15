@@ -19,11 +19,6 @@ public class Voter implements VoterInterface{
         this.name=name;
         this.postcode=postcode;
     }
-    public void castVote(CandidateInterface candidate){
-        vote=new Vote();
-        vote.addCandidate(candidate);
-    }
-    public VoteInterface getVote(){
-        return vote;
-    }
+    
+    
 }
