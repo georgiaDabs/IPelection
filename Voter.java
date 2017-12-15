@@ -2,7 +2,6 @@
 public class Voter implements VoterInterface{
     private String postcode;
     private String name;
-    private VoteInterface vote;
     public String getPostcode(){
         return postcode;
     }

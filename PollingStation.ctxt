@@ -1,5 +1,6 @@
 #BlueJ class context
-comment0.target=PollingStation
+comment0.params=address\ name
+comment0.target=PollingStation(java.lang.String,\ java.lang.String)
 comment1.params=
 comment1.target=java.util.Set\ getVotes()
 comment10.params=

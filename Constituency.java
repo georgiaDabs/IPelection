@@ -1,10 +1,10 @@
 import java.util.Set;
+import java.util.HashSet;
 import java.util.HashMap;
 public class Constituency implements ConstituencyInterface{
-    private Set<CandidateInterface> candidates;
-    private Set<PollingStationInterface> pollingStations;
+    private Set<CandidateInterface> candidates=new HashSet<CandidateInterface>();
+    private Set<PollingStationInterface> pollingStations=new HashSet<PollingStationInterface>();
     private String name;
-    private Set<Voter> registeredVoters;
     public Set<CandidateInterface> getCandidates(){
         return candidates;
     }
@@ -22,12 +22,8 @@ public class Constituency implements ConstituencyInterface{
     }
     public int voteCount(CandidateInterface candidate){
         int voteCount=0;
-        for(Voter voter: registeredVoters){
-            if(!voter.getVote().isSpoiled()){
-                if(voter.getVote().getCandidate()==candidate){
-                    voteCount++;
-                }
-            }
+        for(PollingStationInterface ps:pollingStations){
+            voteCount+=ps.voteCount(candidate);
         }
         return voteCount;
     }

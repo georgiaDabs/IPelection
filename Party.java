@@ -5,6 +5,9 @@ public class Party implements PartyInterface{
     public CandidateInterface getLeader(){
         return leader;
     }
+    public Party(String name){
+        this.name=name;
+    }
     public void setLeader(CandidateInterface leader){
         this.leader=leader;
     }

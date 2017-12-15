@@ -4,13 +4,16 @@ import java.util.HashSet;
 import java.util.Collection;
 public class PollingStation implements PollingStationInterface{
     
-    private Set<VoterInterface> voters;
+    private Set<VoterInterface> voters=new HashSet<VoterInterface>();
     private String address;
     private String name;
-    private HashMap<VoterInterface,VoteInterface> votes;
+    private HashMap<VoterInterface,VoteInterface> votes=new HashMap<VoterInterface, VoteInterface>();
+    public PollingStation(String address, String name){
+        this.name=name;
+        this.address=address;
+    }
     public Set<VoteInterface> getVotes(){
         Set<VoteInterface> v=new HashSet<VoteInterface>(votes.values());
-        //v=votes.values().toSet();
         return v;
     }
     public boolean canVote(VoterInterface voter){
@@ -24,7 +27,9 @@ public class PollingStation implements PollingStationInterface{
         this.name=name;
     }
     public void vote(VoteInterface vote, VoterInterface voter){
-        votes.put(voter,vote);
+        if(canVote(voter)){
+            votes.put(voter,vote);
+        }
     }
     public Set<VoterInterface> getVoters(){
         return voters;
