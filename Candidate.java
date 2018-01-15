@@ -12,10 +12,10 @@ public class Candidate implements CandidateInterface
     public boolean isIndependent(){
         
         if(party==null){
-            return false;
+            return true;
             
         }else{
-            return true;
+            return false;
         }
     }
     public void setParty(PartyInterface party){

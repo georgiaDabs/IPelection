@@ -1,10 +1,12 @@
 #BlueJ class context
-comment0.params=
-comment0.target=java.lang.String\ getPostcode()
-comment1.params=postcode
-comment1.target=void\ setPostcode(java.lang.String)
-comment2.params=
-comment2.target=java.lang.String\ getName()
-comment3.params=name
-comment3.target=void\ setName(java.lang.String)
-numComments=4
+comment0.target=VoterInterface
+comment0.text=\r\n\r\n\ Interface\ for\ a\ voter\ in\ an\ election.\ \r\n\r\n\ You\ should\ provide\ a\ constructor\ with\ a\ String\ name\ parameter\r\n\r\n\ @author\ Steven\ Bradley\r\n\ @version\ December\ 2017\r\n
+comment1.params=
+comment1.target=java.lang.String\ getPostcode()
+comment2.params=postcode
+comment2.target=void\ setPostcode(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=name
+comment4.target=void\ setName(java.lang.String)
+numComments=5

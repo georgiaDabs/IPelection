@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=
-comment0.target=CandidateInterface\ getLeader()
-comment1.params=leader
-comment1.target=void\ setLeader(CandidateInterface)
-comment2.params=
-comment2.target=java.lang.String\ getName()
-numComments=3
+comment0.target=PartyInterface
+comment0.text=\r\n\r\n\ Interface\ for\ a\ political\ party\ in\ an\ election.\ \r\n\r\n\ You\ should\ provide\ a\ constructor\ with\ a\ String\ name\ parameter.\r\n\r\n\ @author\ Steven\ Bradley\r\n\ @version\ December\ 2017\r\n
+comment1.params=
+comment1.target=CandidateInterface\ getLeader()
+comment2.params=leader
+comment2.target=void\ setLeader(CandidateInterface)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+numComments=4

@@ -29,6 +29,9 @@ public class PollingStation implements PollingStationInterface{
     public void vote(VoteInterface vote, VoterInterface voter){
         if(canVote(voter)){
             votes.put(voter,vote);
+            System.out.println("voted");
+        }else{
+            System.out.println("voter can't vote");
         }
     }
     public Set<VoterInterface> getVoters(){

@@ -1,11 +1,13 @@
 #BlueJ class context
-comment0.params=candidate
-comment0.target=void\ addCandidate(CandidateInterface)
-comment0.text=\r\n\ @param\ candidate\ to\ be\ added\ to\ the\ candidates\ selected\ in\ this\ vote\r\n
-comment1.params=
-comment1.target=boolean\ isSpoiled()
-comment1.text=\r\n\ @return\ false\ if\ and\ only\ if\ there\ is\ exactly\ one\ candidate\ selected\r\n
+comment0.target=VoteInterface
+comment0.text=\r\n\r\n\ Interface\ for\ a\ vote\ in\ an\ election.\ When\ the\ vote\ is\ cast\ zero\ or\ more\ candidates\ are\ selected.\ A\ vote\ is\ only\ counted\ if\ exaclty\ one\ candidate\ is\ selected,\ otherwise\ the\ vote\ is\ 'spoiled'.\r\n\r\n\ You\ should\ provide\ a\ constructor\ with\ no\ parameters.\r\n\r\n\ @author\ Steven\ Bradley\r\n\ @version\ December\ 2017\r\n
+comment1.params=candidate
+comment1.target=void\ addCandidate(CandidateInterface)
+comment1.text=\r\n\ @param\ candidate\ to\ be\ added\ to\ the\ candidates\ selected\ in\ this\ vote\r\n
 comment2.params=
-comment2.target=CandidateInterface\ getCandidate()
-comment2.text=\r\n\ @return\ the\ selected\ candidate\ if\ the\ vote\ is\ not\ spoiled,\ otherwise\ return\ null\r\n
-numComments=3
+comment2.target=boolean\ isSpoiled()
+comment2.text=\r\n\ @return\ false\ if\ and\ only\ if\ there\ is\ exactly\ one\ candidate\ selected\r\n
+comment3.params=
+comment3.target=CandidateInterface\ getCandidate()
+comment3.text=\r\n\ @return\ the\ selected\ candidate\ if\ the\ vote\ is\ not\ spoiled,\ otherwise\ return\ null\r\n
+numComments=4

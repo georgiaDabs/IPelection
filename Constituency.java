@@ -8,18 +8,23 @@ public class Constituency implements ConstituencyInterface{
     public Set<CandidateInterface> getCandidates(){
         return candidates;
     }
+
     public void addCandidate(CandidateInterface candidate){
         candidates.add(candidate);
     }
+
     public Set<PollingStationInterface> getPollingStations(){
         return pollingStations;
     }
+
     public String getName(){
         return name;
     }
+
     public void setName(String name){
         this.name=name;
     }
+
     public int voteCount(CandidateInterface candidate){
         int voteCount=0;
         for(PollingStationInterface ps:pollingStations){
@@ -27,17 +32,23 @@ public class Constituency implements ConstituencyInterface{
         }
         return voteCount;
     }
+
     public CandidateInterface winner(){
         CandidateInterface winner=null;
         int highest=0;
-        for(CandidateInterface c:candidates){
-            if(voteCount(c)>highest){
-                winner=c;
-                highest=voteCount(c);
+        if(candidates.isEmpty()){
+            return null;
+        }else{
+            for(CandidateInterface c:candidates){
+                if(voteCount(c)>highest){
+                    winner=c;
+                    highest=voteCount(c);
+                }
             }
+            return winner;
         }
-        return winner;
     }
+
     public void addPollingStation(PollingStationInterface pollingStation){
         pollingStations.add(pollingStation);
     }
